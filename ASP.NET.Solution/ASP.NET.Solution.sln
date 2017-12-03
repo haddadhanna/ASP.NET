@@ -1,0 +1,115 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.ServerControls", "1.ServerControls", "{18AE17F3-D10D-4425-9800-A2F1344220B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{4F87D74A-95A7-4266-80CE-8257EEBA7612}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.StateManagement", "2.StateManagement", "{B0F69F53-EB5C-44FA-935D-703EDD4713A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerControls", "1.ServerControls\ServerControls\ServerControls.csproj", "{2C3FF557-44E4-4F6C-93C7-4CF1EB1F38D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebParts", "1.ServerControls\WebParts\WebParts.csproj", "{76D6ED12-B414-4E16-B843-19568BF3274B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateManagement", "2.StateManagement\StateManagement\StateManagement.csproj", "{4DAAF98B-CBCD-4DE7-8755-D5BB815EE134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossPagePosting", "2.StateManagement\CrossPagePosting\CrossPagePosting.csproj", "{7865ED62-535B-4768-8EA9-DD958799D055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching", "2.StateManagement\Caching\Caching.csproj", "{455DD6BB-577C-4253-818F-E14D17C75DFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.SecurityModel", "3.SecurityModel", "{A9D452E7-E90A-4C3F-8E99-003BB4267250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationAuthorization", "3.SecurityModel\AuthenticationAuthorization\AuthenticationAuthorization.csproj", "{DC09FA0E-107D-47F9-909B-86CAC397F0A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profiles", "3.SecurityModel\Profiles\Profiles.csproj", "{18EFD298-DE7E-4A1D-BFF5-F1D8F3416E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MembershipAndRoles", "3.SecurityModel\MembershipAndRoles\MembershipAndRoles.csproj", "{BBC7A8AE-0AF1-42A0-BDBD-E8D51A200D08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.HTTP Pipeline and IIS", "4.HTTP Pipeline and IIS", "{2A938A33-C067-4263-BE5A-3261B2655686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPHandlers", "4.HTTP Pipeline and IIS\HTTPHandlers\HTTPHandlers.csproj", "{DCF90F39-61D0-43C4-AD51-9C2D3619A439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPModules", "4.HTTP Pipeline and IIS\HTTPModules\HTTPModules.csproj", "{42EE5C43-8173-46FF-8200-FE6CCDB3B7FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integrated.vs.Classic", "Integrated.vs.Classic", "{D743E292-19E5-4739-9BF2-B21F0BED3311}"
+	ProjectSection(SolutionItems) = preProject
+		4.HTTP Pipeline and IIS\Integrated.vs.Classic\iis6.jpg = 4.HTTP Pipeline and IIS\Integrated.vs.Classic\iis6.jpg
+		4.HTTP Pipeline and IIS\Integrated.vs.Classic\iis7.ClassicMode.jpg = 4.HTTP Pipeline and IIS\Integrated.vs.Classic\iis7.ClassicMode.jpg
+		4.HTTP Pipeline and IIS\Integrated.vs.Classic\iis7.IntegratedMode.png = 4.HTTP Pipeline and IIS\Integrated.vs.Classic\iis7.IntegratedMode.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationLifeCycle", "ApplicationLifeCycle", "{80158826-F1F0-41AE-93D6-53EF574AD8A1}"
+	ProjectSection(SolutionItems) = preProject
+		4.HTTP Pipeline and IIS\ApplicationLifeCycle\lifeCycle.IIS7.IntegratedMode.png = 4.HTTP Pipeline and IIS\ApplicationLifeCycle\lifeCycle.IIS7.IntegratedMode.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C3FF557-44E4-4F6C-93C7-4CF1EB1F38D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3FF557-44E4-4F6C-93C7-4CF1EB1F38D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3FF557-44E4-4F6C-93C7-4CF1EB1F38D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3FF557-44E4-4F6C-93C7-4CF1EB1F38D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D6ED12-B414-4E16-B843-19568BF3274B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D6ED12-B414-4E16-B843-19568BF3274B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D6ED12-B414-4E16-B843-19568BF3274B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D6ED12-B414-4E16-B843-19568BF3274B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DAAF98B-CBCD-4DE7-8755-D5BB815EE134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAAF98B-CBCD-4DE7-8755-D5BB815EE134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAAF98B-CBCD-4DE7-8755-D5BB815EE134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAAF98B-CBCD-4DE7-8755-D5BB815EE134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7865ED62-535B-4768-8EA9-DD958799D055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7865ED62-535B-4768-8EA9-DD958799D055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7865ED62-535B-4768-8EA9-DD958799D055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7865ED62-535B-4768-8EA9-DD958799D055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{455DD6BB-577C-4253-818F-E14D17C75DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455DD6BB-577C-4253-818F-E14D17C75DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455DD6BB-577C-4253-818F-E14D17C75DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455DD6BB-577C-4253-818F-E14D17C75DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC09FA0E-107D-47F9-909B-86CAC397F0A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC09FA0E-107D-47F9-909B-86CAC397F0A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC09FA0E-107D-47F9-909B-86CAC397F0A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC09FA0E-107D-47F9-909B-86CAC397F0A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18EFD298-DE7E-4A1D-BFF5-F1D8F3416E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EFD298-DE7E-4A1D-BFF5-F1D8F3416E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EFD298-DE7E-4A1D-BFF5-F1D8F3416E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EFD298-DE7E-4A1D-BFF5-F1D8F3416E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC7A8AE-0AF1-42A0-BDBD-E8D51A200D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC7A8AE-0AF1-42A0-BDBD-E8D51A200D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC7A8AE-0AF1-42A0-BDBD-E8D51A200D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC7A8AE-0AF1-42A0-BDBD-E8D51A200D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF90F39-61D0-43C4-AD51-9C2D3619A439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF90F39-61D0-43C4-AD51-9C2D3619A439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF90F39-61D0-43C4-AD51-9C2D3619A439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF90F39-61D0-43C4-AD51-9C2D3619A439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42EE5C43-8173-46FF-8200-FE6CCDB3B7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EE5C43-8173-46FF-8200-FE6CCDB3B7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EE5C43-8173-46FF-8200-FE6CCDB3B7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EE5C43-8173-46FF-8200-FE6CCDB3B7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C3FF557-44E4-4F6C-93C7-4CF1EB1F38D4} = {18AE17F3-D10D-4425-9800-A2F1344220B9}
+		{76D6ED12-B414-4E16-B843-19568BF3274B} = {18AE17F3-D10D-4425-9800-A2F1344220B9}
+		{4DAAF98B-CBCD-4DE7-8755-D5BB815EE134} = {B0F69F53-EB5C-44FA-935D-703EDD4713A7}
+		{7865ED62-535B-4768-8EA9-DD958799D055} = {B0F69F53-EB5C-44FA-935D-703EDD4713A7}
+		{455DD6BB-577C-4253-818F-E14D17C75DFF} = {B0F69F53-EB5C-44FA-935D-703EDD4713A7}
+		{DC09FA0E-107D-47F9-909B-86CAC397F0A7} = {A9D452E7-E90A-4C3F-8E99-003BB4267250}
+		{18EFD298-DE7E-4A1D-BFF5-F1D8F3416E34} = {A9D452E7-E90A-4C3F-8E99-003BB4267250}
+		{BBC7A8AE-0AF1-42A0-BDBD-E8D51A200D08} = {A9D452E7-E90A-4C3F-8E99-003BB4267250}
+		{DCF90F39-61D0-43C4-AD51-9C2D3619A439} = {2A938A33-C067-4263-BE5A-3261B2655686}
+		{42EE5C43-8173-46FF-8200-FE6CCDB3B7FB} = {2A938A33-C067-4263-BE5A-3261B2655686}
+		{D743E292-19E5-4739-9BF2-B21F0BED3311} = {2A938A33-C067-4263-BE5A-3261B2655686}
+		{80158826-F1F0-41AE-93D6-53EF574AD8A1} = {2A938A33-C067-4263-BE5A-3261B2655686}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.linkHome {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+    .linkHome a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+
+        .linkHome a h1 {
+            margin: 0px;
+        }
+
+.bodyHolder {
+    margin: 10px;
+
+}
